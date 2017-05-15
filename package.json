@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-bunchtogether",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bunch's base JS ESLint config",
   "main": "index.js",
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",
     "lint": "eslint .",
     "tests-only": "babel-tape-runner ./test/test-*.js",
-    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest",
+    "prepublish.old": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest",
     "pretest": "npm run --silent lint",
     "test": "npm run --silent tests-only",
     "travis": "npm run --silent test"
@@ -67,7 +67,6 @@
   },
   "peerDependencies": {
     "eslint": "^3.19.0",
-    "eslint-find-rules": "^1.14.3",
     "eslint-import-resolver-webpack": "^0.8.1",
     "eslint-plugin-flowtype": "^2.33.0",
     "eslint-plugin-flowtype-errors": "^3.2.1",
