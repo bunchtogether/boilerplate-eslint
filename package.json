@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bunchtogether",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bunch's base JS ESLint config",
   "main": "index.js",
   "scripts": {
@@ -42,9 +42,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/bunchtogether/boilerplate-eslint/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/bunchtogether/boilerplate-eslint",
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-preset-airbnb": "^2.2.3",
