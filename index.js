@@ -10,7 +10,6 @@ module.exports = {
     './rules/mocha',
     './rules/node',
     './rules/react',
-    './rules/redux-saga',
     './rules/strict',
     './rules/style',
     './rules/variables',

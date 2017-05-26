@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bunchtogether",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bunch's base JS ESLint config",
   "main": "index.js",
   "scripts": {
@@ -58,10 +58,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-react": "^7.0.1",
-    "eslint-plugin-redux-saga": "^0.3.0",
     "flow-bin": "^0.46.0",
     "in-publish": "^2.0.0",
-    "redux-saga": "^0.15.3",
     "safe-publish-latest": "^1.1.1",
     "tape": "^4.6.3"
   },
@@ -72,8 +70,7 @@
     "eslint-plugin-flowtype-errors": "^3.2.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.0.1",
-    "eslint-plugin-redux-saga": "^0.3.0"
+    "eslint-plugin-react": "^7.0.1"
   },
   "engines": {
     "node": ">= 4"
