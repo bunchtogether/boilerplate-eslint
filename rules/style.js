@@ -219,7 +219,7 @@ module.exports = {
         ['&&', '||'],
         ['in', 'instanceof']
       ],
-      allowSamePrecedence: false
+      allowSamePrecedence: true
     }],
 
     // disallow mixed spaces and tabs for indentation
