@@ -9,9 +9,9 @@ module.exports = {
       functions: 'always-multiline',
     }],
 
-    // Disallow await inside of loops
+    // Allow await inside of loops
     // http://eslint.org/docs/rules/no-await-in-loop
-    'no-await-in-loop': 'error',
+    'no-await-in-loop': 'off',
 
     // Disallow comparisons to negative zero
     // http://eslint.org/docs/rules/no-compare-neg-zero
