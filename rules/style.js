@@ -209,18 +209,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-lonely-if
     'no-lonely-if': 'error',
 
-    // disallow un-paren'd mixes of different operators
+    // allow un-paren'd mixes of different operators
     // http://eslint.org/docs/rules/no-mixed-operators
-    'no-mixed-operators': ['error', {
-      groups: [
-        ['+', '-', '*', '/', '%', '**'],
-        ['&', '|', '^', '~', '<<', '>>', '>>>'],
-        ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
-        ['&&', '||'],
-        ['in', 'instanceof']
-      ],
-      allowSamePrecedence: true
-    }],
+    'no-mixed-operators': 'off',
 
     // disallow mixed spaces and tabs for indentation
     'no-mixed-spaces-and-tabs': 'error',
