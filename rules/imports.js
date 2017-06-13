@@ -69,6 +69,7 @@ module.exports = {
     // paths are treated both as absolute paths, and relative to process.cwd()
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: [
+        'internals/**', // React boilerplate externals
         'test/**', // tape, common npm pattern
         'tests/**', // also common npm pattern
         '**/test*.js', // repos with a single test file
