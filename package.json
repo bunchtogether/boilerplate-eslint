@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bunchtogether",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Bunch's base JS ESLint config",
   "main": "index.js",
   "scripts": {
