@@ -164,7 +164,7 @@ module.exports = {
 
     // Allow missing props validation in a React component definition, we're using flow
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
 
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
