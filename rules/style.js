@@ -194,9 +194,9 @@ module.exports = {
     // disallow use of the Array constructor
     'no-array-constructor': 'error',
 
-    // disallow use of bitwise operators
+    // allow use of bitwise operators
     // http://eslint.org/docs/rules/no-bitwise
-    'no-bitwise': 'error',
+    'no-bitwise': 'off',
 
     // disallow use of the continue statement
     // http://eslint.org/docs/rules/no-continue
