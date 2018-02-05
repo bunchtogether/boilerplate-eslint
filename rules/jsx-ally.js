@@ -140,7 +140,7 @@ module.exports = {
 
     // ensure emoji are accessible
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md
-    'jsx-a11y/accessible-emoji': 'error',
+    'jsx-a11y/accessible-emoji': 'off',
 
     // elements with aria-activedescendant must be tabbable
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-activedescendant-has-tabindex.md
